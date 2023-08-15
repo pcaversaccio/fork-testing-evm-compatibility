@@ -12,3 +12,7 @@ Simply invoke:
 ```console
 forge test
 ```
+
+### `PUSH0`-Rollout
+
+![image](https://github.com/pcaversaccio/fork-testing-evm-compatibility/assets/25297591/d09ab338-511d-4211-b5ba-93e32dddd479)
