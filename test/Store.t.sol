@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: WTFPL
-pragma solidity 0.8.24;
+pragma solidity 0.8.25;
 
 import {Test, console2} from "forge-std/Test.sol";
 
