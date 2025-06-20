@@ -23,7 +23,9 @@ contract StoreTest is Test {
     Store private _store;
 
     function setUp() public {
-        _optimismFork = vm.createFork("https://mainnet.optimism.io");
+        // The `PUSH0` opcode was introduced on Optimism in the `Canyon` hard fork (around block `114696812`): https://specs.optimism.io/protocol/canyon/overview.html.
+        // For an overview of all Optimism network upgrades, see: https://docs.optimism.io/operators/node-operators/network-upgrades.
+        _optimismFork = vm.createFork("https://mainnet.optimism.io", 109696812);
     }
 
     function testDeployAndInteractOnOptimism() public {
