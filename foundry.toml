@@ -1,7 +1,7 @@
 ## defaults for all profiles
 [profile.default]
 src = "src"                          # the source directory
-test = "test"                        # the test directory                 # the test directory
+test = "test"                        # the test directory
 out = "out"                          # the output directory (for artifacts)
 libs = ["lib"]                       # a list of library directories
 cache = true                         # cache the builds
